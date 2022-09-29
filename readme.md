@@ -19,6 +19,16 @@ PackerSync
 
 done!
 
+For Ubuntu did have `nvim` 0.7 above, install newest one:
+
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+```
+
+
 ## Features
 
 - `Packer`;
