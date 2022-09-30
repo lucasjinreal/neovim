@@ -4,5 +4,6 @@ lua require('keybindings')
 lua require('pluginconfig/nvim_tree')
 
 set background=dark
--- colorscheme zephyr
-colorscheme tokyonight
+" colorscheme zephyr
+" colorscheme tokyonight
+colorscheme moonfly

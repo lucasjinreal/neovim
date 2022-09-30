@@ -23,6 +23,8 @@ return require('packer').startup(function()
     use 'glepnir/zephyr-nvim'
     use("folke/tokyonight.nvim")
 
+    use 'bluz71/vim-moonfly-colors'
+
     -- nvim-tree (新增)
     use {
         'kyazdani42/nvim-tree.lua',
