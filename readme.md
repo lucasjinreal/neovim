@@ -40,6 +40,7 @@ sudo apt-get install neovim
 Here, I wrote some keymaps that helpful when you control your vim.
 
 - `ctrl + ww`: swith nvim tree and opened file;
+- `hjkl`: for normal mode navigation, however, this need to be changed in the future;
 
 
 ## Fonts
