@@ -25,5 +25,8 @@ return require('packer').startup(function()
     }
     
     use { "beauwilliams/focus.nvim", config = function() require("focus").setup() end }
-
+    
+    -- for this completion
+    use "ms-jpq/coq_nvim"
+    use "ms-jpq/coq.artifacts"
 end)

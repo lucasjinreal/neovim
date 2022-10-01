@@ -6,6 +6,11 @@ map('n', '<C-n>', ':NvimTreeToggle<CR>', opt)
 
 map('n', '<c-l>', ':FocusSplitNicely<CR>', opt)
 
+
+-- 将ctrl+u滚动设置为9行
+map("n", "<C-u>", "9k", opt)
+map("n", "<C-d>", "9j", opt)
+
 map("n", "s", "", opt)
 -- windows 分屏快捷键
 map("n", "sv", ":vsp<CR>", opt)

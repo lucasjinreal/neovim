@@ -33,6 +33,7 @@ sudo apt-get install neovim
 
 - `Packer`;
 - `NvimTree`;
+- `COQ`: for auto completion;
 
 
 ## Keymaps
@@ -41,6 +42,10 @@ Here, I wrote some keymaps that helpful when you control your vim.
 
 - `ctrl + ww`: swith nvim tree and opened file;
 - `hjkl`: for normal mode navigation, however, this need to be changed in the future;
+
+## Setups 
+
+The whole plugin system should work out-of-box, but some complicated need additional setups. For completion plugin,we using `COQ`. You need run `COQdeps` first to install dependencies.
 
 
 ## Fonts
