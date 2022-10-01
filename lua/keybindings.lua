@@ -4,6 +4,8 @@ local opt = {noremap = true, silent = true }
 -- nvimTree
 map('n', '<C-n>', ':NvimTreeToggle<CR>', opt)
 
+map('n', '<c-l>', ':FocusSplitNicely<CR>', opt)
+
 map("n", "s", "", opt)
 -- windows 分屏快捷键
 map("n", "sv", ":vsp<CR>", opt)
