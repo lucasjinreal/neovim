@@ -8,7 +8,7 @@ then
     cp init.vim ~/.config/nvim
 elif ["$(expr substr $(uname -s) 1 5)" == "Linux"]; then
     # GNU/Linux操作系统
-    git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
+    git clone https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
     mkdir ~/.config/nvim
     cp -r lua ~/.config/nvim
