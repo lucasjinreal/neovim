@@ -50,6 +50,12 @@ Here, I wrote some keymaps that helpful when you control your vim.
 
 The whole plugin system should work out-of-box, but some complicated need additional setups. For completion plugin,we using `COQ`. You need run `COQdeps` first to install dependencies.
 
+1. `Mason`:
+
+Mason is for LSP, code completion. After installed the essential plugins, you should have Mason, type `Mason` you can install the plugins from floating windows.
+
+
+
 
 ## Fonts
 
