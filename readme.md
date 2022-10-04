@@ -53,6 +53,12 @@ The whole plugin system should work out-of-box, but some complicated need additi
 1. `Mason`:
 
 Mason is for LSP, code completion. After installed the essential plugins, you should have Mason, type `Mason` you can install the plugins from floating windows.
+```
+MasonInstall bash-language-server shfmt shellcheck stylua lua-language-server black pyright pylint debugpy clang-format clangd cpptools eslint-l
+sp eslint_d node-debug2-adapter typescript-language-server quick-lint-js prettier sqls sql-formatter json-lsp html-lsp fixjson emmet-ls css-lsp m
+arkdownlint gopls
+```
+these are LSP needed for mason
 
 
 
