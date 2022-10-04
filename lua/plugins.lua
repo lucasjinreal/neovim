@@ -29,4 +29,11 @@ return require('packer').startup(function()
     -- for this completion
     use "ms-jpq/coq_nvim"
     use "ms-jpq/coq.artifacts"
+
+    -- auto pairs
+    use {
+      "windwp/nvim-autopairs",
+      config = function() require("nvim-autopairs").setup {} end
+    }
+
 end)

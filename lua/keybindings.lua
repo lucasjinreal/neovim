@@ -5,6 +5,7 @@ local opt = {noremap = true, silent = true }
 map('n', '<C-n>', ':NvimTreeToggle<CR>', opt)
 
 map('n', '<c-l>', ':FocusSplitNicely<CR>', opt)
+map('n', '<c-b>', ':COQnow<CR>', opt)
 
 
 -- 将ctrl+u滚动设置为9行

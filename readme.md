@@ -1,5 +1,6 @@
 # NeoVIM
 
+
 neovim config, this plugins might upgrade, be careful on use.
 
 
@@ -42,6 +43,8 @@ Here, I wrote some keymaps that helpful when you control your vim.
 
 - `ctrl + ww`: swith nvim tree and opened file;
 - `hjkl`: for normal mode navigation, however, this need to be changed in the future;
+- `ctrl + b`: Activate COQnow for auto completion;
+- `ctrl + d`: Scroll with step 9 lines for faster scroll;
 
 ## Setups 
 
