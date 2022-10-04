@@ -56,6 +56,13 @@ Mason is for LSP, code completion. After installed the essential plugins, you sh
 
 
 
+## About Code Auto Completion
+
+Auto completion using `mason.vim` and `coq`, one is for LSP, and one is for autocompleting.
+
+for python, using `pyright` as LSP. However, it seems not very accurate than like vscode.
+
+
 
 ## Fonts
 
